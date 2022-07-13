@@ -17,8 +17,8 @@
 
 .react, .redux, .js, .babel, .html, .git, .node, .ts, .mongo, .sqlite, .post{
     color: white;
-    font-size: 100px;
-    padding: 60px 0 20px 0;
+    font-size: 130px;
+    padding: 60px 0 0 0;
 }
 
 @media only screen and (max-width: 960px){
