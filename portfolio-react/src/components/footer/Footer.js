@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import cv from '../../media/cv.docx'
+import cv from '../../media/cv.pdf'
 
 const Footer = () => {
   return (
@@ -28,7 +28,7 @@ const Footer = () => {
                     <i className='fab fa-twitter twitter'>
                     </i>
                 </a>
-                <a href={cv} download>
+                <a href={cv} target='_blank' rel="noreferrer">
                 <button className='buttonCv'>Download cv</button>
                 </a>
             </div>
