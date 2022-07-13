@@ -1,0 +1,36 @@
+.containerSkills{
+    Background-color: black;
+    color: white;
+    height: 30vh;
+    padding-top: 60px;
+}
+
+.text{
+    text-align: center;
+    font-size: 60px;
+}
+
+.snsSkills{
+    
+    text-align: center;
+}
+
+.react, .redux, .js, .babel, .html, .git, .node, .ts, .mongo, .sqlite, .post{
+    color: white;
+    font-size: 130px;
+    padding: 60px 0 0 0;
+}
+
+@media only screen and (max-width: 960px){
+    .containerSkills{
+        height: 40vh;
+    }
+    .text{
+        font-size: 52px;
+        padding: 0 0 10px 0;
+    }
+    .react, .redux, .js, .babel, .html, .git, .node, .ts, .mongo, .sqlite, .post{
+        font-size: 65px;
+        padding: 20px 0 0 0;
+    }
+}
