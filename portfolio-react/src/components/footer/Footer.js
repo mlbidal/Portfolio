@@ -28,9 +28,7 @@ const Footer = () => {
                     <i className='fab fa-twitter twitter'>
                     </i>
                 </a>
-                <a href={cv} target='_blank' rel="noreferrer">
-                <button className='buttonCv'>Download cv</button>
-                </a>
+                <a href={cv} target='_blank' rel="noreferrer" className='cv'>Download cv</a>
             </div>
         </div>
     </footer>

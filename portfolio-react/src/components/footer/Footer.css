@@ -64,11 +64,10 @@
     color: white;
 }
 
-.buttonCv{
+.cv{
     padding: 5px 7px 5px 7px;
-    color: black;
-    background-color: white;
-    font-size: 17px;
+    color: white;
+    font-size: 20px;
     border: none;
 }
 
