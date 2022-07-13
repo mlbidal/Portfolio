@@ -9,25 +9,25 @@ const Slider = () => {
     
     <div className='carouselContainer'>
         <di className='carouseltittle'>
-            <h1>My proyects</h1>
+            <h1>My projects</h1>
         </di>
             
             <div className="slideContainer">
-                <img className='img' src={homeEsocial} alt= 'Proyect 1'/>
+                <img className='img' src={homeEsocial} alt= 'Project 1'/>
                 <div className="slideDesc">
-                    <span> Proyect E-SOCIAL</span>
+                    <span> Project E-SOCIAL</span>
                 </div>
             </div>
             <div className="slideContainer">
-                <img className='img' src={homeVideogames} alt= 'Proyect 2' />
+                <img className='img' src={homeVideogames} alt= 'Project 2' />
                 <div className="slideDesc">
-                    <span> Proyect Video Games</span>
+                    <span> Project Video Games</span>
                 </div>
             </div>
             <div className="slideContainer">
-                <img className='img' src={esocialBuy} alt= 'Proyect 3'/>
+                <img className='img' src={esocialBuy} alt= 'Project 3'/>
                 <div className="slideDesc">
-                    <span> Proyect Food</span>
+                    <span> Project Food</span>
                 </div>
             </div>
     </div>
