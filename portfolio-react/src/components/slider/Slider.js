@@ -1,8 +1,8 @@
 import React from 'react';
 import './Slider.css';
-import homeEsocial from '../../media/homeEsocial.png'
-import homeVideogames from '../../media/homeVideogames.png'
-import esocialBuy from '../../media/esocialBuy.png'
+import esocial from '../../media/esocial.png'
+import videogames from '../../media/videogames.png'
+import food from '../../media/food.png'
 
 const Slider = () => {
   return (
@@ -13,22 +13,28 @@ const Slider = () => {
         </di>
             
             <div className="slideContainer">
-                <img className='img' src={homeEsocial} alt= 'Project 1'/>
+                <a href='https://e-social-book.netlify.app/' target='_blank' rel="noreferrer">
+                <img className='img' src={esocial} alt= 'Project 1' />
                 <div className="slideDesc">
                     <span> Project E-SOCIAL</span>
                 </div>
+                </a>
             </div>
             <div className="slideContainer">
-                <img className='img' src={homeVideogames} alt= 'Project 2' />
+            <a href='https://video-games-malu.vercel.app/home' target='_blank' rel="noreferrer">
+                <img className='img' src={videogames} alt= 'Project 2' />
                 <div className="slideDesc">
                     <span> Project Video Games</span>
                 </div>
+                </a>
             </div>
             <div className="slideContainer">
-                <img className='img' src={esocialBuy} alt= 'Project 3'/>
+            <a href='https://github.com/mlbidal/PI-FOOD' target='_blank' rel="noreferrer">
+                <img className='img' src={food} alt= 'Project 3'/>
                 <div className="slideDesc">
                     <span> Project Food</span>
                 </div>
+                </a>
             </div>
     </div>
   )
